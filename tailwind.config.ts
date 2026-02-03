@@ -47,6 +47,18 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        chart: {
+          deep: "hsl(var(--chart-deep))",
+          rem: "hsl(var(--chart-rem))",
+          light: "hsl(var(--chart-light))",
+          awake: "hsl(var(--chart-awake))",
+          hr: "hsl(var(--chart-hr))",
+          hrv: "hsl(var(--chart-hrv))",
+          excellent: "hsl(var(--chart-excellent))",
+          good: "hsl(var(--chart-good))",
+          fair: "hsl(var(--chart-fair))",
+          poor: "hsl(var(--chart-poor))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -57,6 +69,9 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+      },
+      fontFamily: {
+        serif: ["Georgia", "Cambria", "Times New Roman", "serif"],
       },
       borderRadius: {
         lg: "var(--radius)",
